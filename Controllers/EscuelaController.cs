@@ -14,7 +14,11 @@ namespace NetCore.Controllers
         
         public IActionResult Index()
         {
-            return View();
+            var escuela = new EscuelaViewModel();
+            escuela.AnioFundacion = 2005;
+            escuela.Id = Guid.NewGuid().ToString();
+            escuela.Nombre = "ImpiSchool";
+            return View(escuela);
         }
     }
 }
