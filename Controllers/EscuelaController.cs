@@ -16,7 +16,7 @@ namespace NetCore.Controllers
         {
             var escuela = new EscuelaViewModel();
             escuela.AnioFundacion = 2005;
-            escuela.Id = Guid.NewGuid().ToString();
+            escuela.UniqueId = Guid.NewGuid().ToString();
             escuela.Nombre = "ImpiSchool";
             return View(escuela);
         }

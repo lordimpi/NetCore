@@ -36,3 +36,4 @@ D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\NetCore.pdb
 D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\NetCore.genruntimeconfig.cache
 D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\NetCore.csproj.CopyComplete
 D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Escuela\Index.cshtml.g.cs
+D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Simple.cshtml.g.cs
