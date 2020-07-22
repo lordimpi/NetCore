@@ -20554,6 +20554,11 @@
       "FilePath": "d:\\Unicauca\\Programacion\\Platzi\\NetCore\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Unicauca\\Programacion\\Platzi\\NetCore\\Views\\Escuela\\Index.cshtml",
+      "TargetPath": "Views\\Escuela\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
