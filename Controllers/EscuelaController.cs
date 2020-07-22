@@ -18,6 +18,10 @@ namespace NetCore.Controllers
             escuela.AnioFundacion = 2005;
             escuela.UniqueId = Guid.NewGuid().ToString();
             escuela.Nombre = "ImpiSchool";
+            escuela.Pais = "Colombia";
+            escuela.Ciudad = "Popayán";
+            escuela.Direccion = "Carrera 8i # 66bn - 38";
+            escuela.TipoEscuela = TiposEscuelaViewModel.Secundaria;
             return View(escuela);
         }
     }
