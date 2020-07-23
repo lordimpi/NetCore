@@ -7,7 +7,7 @@ namespace NetCore.Models
     public class AlumnoPromedioViewModel
     {
         public float promedio;
-        public string alumnoid;
+        public string Id;
         public string alumnoNombre;
     }
 }

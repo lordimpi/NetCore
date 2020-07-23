@@ -5,6 +5,8 @@ namespace NetCore.Models
 {
     public class AlumnoViewModel: ObjetoEscuelaBaseViewModel
     {
-        public List<EvaluaciónViewModel> Evaluaciones { get; set; } = new List<EvaluaciónViewModel>();
+        public string CursoId { get; set; }
+        public CursoViewMoel Curso { get; set; }
+        public List<EvaluaciónViewModel> Evaluaciones { get; set; }
     }
 }
