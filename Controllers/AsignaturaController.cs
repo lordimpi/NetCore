@@ -13,7 +13,7 @@ namespace NetCore.Controllers
     {
         public IActionResult Index()
         {
-            var asignatura = new AsignaturaViewModel
+            var asignatura = new AlumnoViewModel
             {
                 Nombre = "Programación",
                 UniqueId = Guid.NewGuid().ToString()
@@ -23,29 +23,29 @@ namespace NetCore.Controllers
 
         public IActionResult MultiAsignatura()
         {
-            var listaAsignaturas = new List<AsignaturaViewModel>
+            var listaAsignaturas = new List<AlumnoViewModel>
             {
-                new AsignaturaViewModel
+                new AlumnoViewModel
                 {
                     Nombre = "Matemáticas",
                     UniqueId = Guid.NewGuid().ToString()
                 },
-                new AsignaturaViewModel
+                new AlumnoViewModel
                 {
                     Nombre="Educación Física",
                     UniqueId = Guid.NewGuid().ToString()
                 },
-                new AsignaturaViewModel
+                new AlumnoViewModel
                 {
                     Nombre="Castellano",
                     UniqueId = Guid.NewGuid().ToString()
                 },
-                new AsignaturaViewModel
+                new AlumnoViewModel
                 {
                     Nombre="Ciencias Naturales",
                     UniqueId = Guid.NewGuid().ToString()
                 },
-                new AsignaturaViewModel
+                new AlumnoViewModel
                 {
                     Nombre="Programación",
                     UniqueId = Guid.NewGuid().ToString()
