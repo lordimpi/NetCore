@@ -9,9 +9,12 @@
 
 <strong>Desde la vista normal</strong>
 
+@*
 @foreach (var asignatura in Model)
 {
     <partial name="ObjetoEscuelaBaseSimple" model="asignatura"/>
 }
+*@
+<partial name="ListaObjetoEscuelaBase"/>
 
 <p><i>@ViewBag.Fecha</i></p>
