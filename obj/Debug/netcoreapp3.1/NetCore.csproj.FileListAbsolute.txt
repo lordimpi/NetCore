@@ -42,3 +42,4 @@ D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Asig
 D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ObjetoEscuelaBaseSimple.cshtml.g.cs
 D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Alumno\Index.cshtml.g.cs
 D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Alumno\MultiAlumno.cshtml.g.cs
+D:\Unicauca\Programacion\Platzi\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ListaObjetoEscuelaBase.cshtml.g.cs

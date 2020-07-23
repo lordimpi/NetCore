@@ -6,22 +6,21 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NetCore.Models;
-
+using System.Linq;
 namespace NetCore.Controllers
 {
     public class EscuelaController : Controller
     {
-        
+        private readonly EscuelaContext _escuelaContext;
+        public EscuelaController(EscuelaContext escuelaContext)
+        {
+            _escuelaContext = escuelaContext;
+
+        }
+
         public IActionResult Index()
         {
-            var escuela = new EscuelaViewModel();
-            escuela.AnioFundacion = 2005;
-            escuela.UniqueId = Guid.NewGuid().ToString();
-            escuela.Nombre = "ImpiSchool";
-            escuela.Pais = "Colombia";
-            escuela.Ciudad = "Popayán";
-            escuela.Direccion = "Carrera 8i # 66bn - 38";
-            escuela.TipoEscuela = TiposEscuelaViewModel.Secundaria;
+            var escuela = _escuelaContext.Escuelas.FirstOrDefault();
             return View(escuela);
         }
     }
