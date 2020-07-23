@@ -16,7 +16,7 @@ namespace NetCore.Controllers
             var alumno = new AlumnoViewModel
             {
                 Nombre = "Santiago Acuña",
-                UniqueId = Guid.NewGuid().ToString()
+                Id = Guid.NewGuid().ToString()
             };
             return View(alumno);
         }
@@ -41,10 +41,10 @@ namespace NetCore.Controllers
                                from a1 in apellido1
                                select new AlumnoViewModel { 
                                    Nombre = $"{n1} {n2} {a1}" ,
-                                   UniqueId = Guid.NewGuid().ToString()
+                                   Id = Guid.NewGuid().ToString()
                                    };
 
-            return listaAlumnos.OrderBy((al) => al.UniqueId).ToList();
+            return listaAlumnos.OrderBy((al) => al.Id).ToList();
         }
     }
 }

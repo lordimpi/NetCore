@@ -16,7 +16,7 @@ namespace NetCore.Controllers
             var asignatura = new AlumnoViewModel
             {
                 Nombre = "Programación",
-                UniqueId = Guid.NewGuid().ToString()
+                Id = Guid.NewGuid().ToString()
             };
             return View(asignatura);
         }
@@ -28,27 +28,27 @@ namespace NetCore.Controllers
                 new AlumnoViewModel
                 {
                     Nombre = "Matemáticas",
-                    UniqueId = Guid.NewGuid().ToString()
+                    Id = Guid.NewGuid().ToString()
                 },
                 new AlumnoViewModel
                 {
                     Nombre="Educación Física",
-                    UniqueId = Guid.NewGuid().ToString()
+                    Id = Guid.NewGuid().ToString()
                 },
                 new AlumnoViewModel
                 {
                     Nombre="Castellano",
-                    UniqueId = Guid.NewGuid().ToString()
+                    Id = Guid.NewGuid().ToString()
                 },
                 new AlumnoViewModel
                 {
                     Nombre="Ciencias Naturales",
-                    UniqueId = Guid.NewGuid().ToString()
+                    Id = Guid.NewGuid().ToString()
                 },
                 new AlumnoViewModel
                 {
                     Nombre="Programación",
-                    UniqueId = Guid.NewGuid().ToString()
+                    Id = Guid.NewGuid().ToString()
                 }
             };
 

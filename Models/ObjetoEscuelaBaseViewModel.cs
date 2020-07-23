@@ -4,7 +4,7 @@ namespace NetCore.Models
 {
     public abstract class ObjetoEscuelaBaseViewModel
     {
-        public string UniqueId { get; set; }
+        public string Id { get; set; }
         public string Nombre { get; set; }
 
         public ObjetoEscuelaBaseViewModel()
@@ -14,7 +14,7 @@ namespace NetCore.Models
 
         public override string ToString()
         {
-            return $"{Nombre},{UniqueId}";
+            return $"{Nombre},{Id}";
         }
     }
 }

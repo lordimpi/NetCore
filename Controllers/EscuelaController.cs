@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NetCore.Models;
-using System.Linq;
+
 namespace NetCore.Controllers
 {
     public class EscuelaController : Controller
